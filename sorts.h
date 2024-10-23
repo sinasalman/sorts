@@ -44,6 +44,23 @@ public:
         }
         print_array(array,size);
     }
+    void Insertion_sort(int array[],int size){
+        int y , j ;
+        for(int i = 2 ; i<size;i++){
+            y = array[i];
+            j = i-1;
+            while (j > 0 && y < array[j]){
+                array[j+1]  =  array[j];
+                
+                print_array(array,size);
+
+                j -= 1;
+            }
+            
+            array[j+1] = y;
+        }
+         print_array(array,size);
+    }
     void print_array(int array[], int size)
     {
         for (int i = 0; i < size; i++)

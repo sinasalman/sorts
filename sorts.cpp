@@ -23,12 +23,14 @@ int main()
     }
 
     sort.print_array(arr, size);
-    //1cout << "1 - selection Sort : \n";
+    //cout << "1 - selection Sort : \n";
     //sort.Selection_Sort(arr, size);
     //sort.print_array(arr, size);
-    cout << "2 - Bubble Sort : \n";
+    // cout << "2 - Bubble Sort : \n";
     
-    sort.Bubble_sort(arr, size);
-
+    // sort.Bubble_sort(arr, size);
+    cout<<"Insertion sort : \n";
+    sort.Insertion_sort(arr,size);
+    
     return 0;
 }
