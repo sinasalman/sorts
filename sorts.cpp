@@ -21,9 +21,14 @@ int main()
     {
         arr[i] = array[i];
     }
-    cout<<"which one is your choos to sort \n";
-    sort.printArray(arr,size);
+
+    sort.print_array(arr, size);
+    //1cout << "1 - selection Sort : \n";
+    //sort.Selection_Sort(arr, size);
+    //sort.print_array(arr, size);
+    cout << "2 - Bubble Sort : \n";
     
+    sort.Bubble_sort(arr, size);
 
     return 0;
 }
