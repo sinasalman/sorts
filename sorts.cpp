@@ -10,10 +10,19 @@ int main()
     int size;
     cout << "Hello to Sort app !! \n please Enter your array for sort : ";
     vector<int> array;
-    int value;
-    while (cin >> value)
+
+    while (true)
     {
+        int value;
+        cin >> value;
         array.push_back(value);
+        int desicion;
+        cout << "continue? 1.yes 0.No: ";
+        cin >> desicion;
+        if (desicion == 0)
+        {
+            break;
+        }
     }
     size = array.size();
     int *arr = new int[size];
@@ -22,15 +31,16 @@ int main()
         arr[i] = array[i];
     }
 
-    sort.print_array(arr, size);
-    //cout << "1 - selection Sort : \n";
-    //sort.Selection_Sort(arr, size);
-    //sort.print_array(arr, size);
-    // cout << "2 - Bubble Sort : \n";
-    
+    // sort.print_array(arr, size);
+    // cout << "1 - selection Sort : \n";
+    // sort.Selection_Sort(arr, size);
+    // sort.print_array(arr, size);
+    //  cout << "2 - Bubble Sort : \n";
+
     // sort.Bubble_sort(arr, size);
-    cout<<"Insertion sort : \n";
-    sort.Insertion_sort(arr,size);
-    
+    sort.QuickSort(arr,0,size);
+    // cout<<"Insertion sort : \n";
+    // sort.Insertion_sort(arr,size);
+
     return 0;
 }
