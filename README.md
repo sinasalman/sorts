@@ -10,8 +10,8 @@ This program is designed for learning and utilizing sorting algorithms. If you h
 4. **Quick Sort**: `Quick_sort(int array[], int low, int high)`
 
 ## 🔧 Future Features
-1. More algorithms will be added soon!
-2. GUI will be added soon!
+1. `More algorithms` will be added soon!
+2. `GUI` will be added soon!
 ## 💡 Why Use This Project?
 - Simple and practical
 - Suitable for C++ projects
