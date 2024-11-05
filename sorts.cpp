@@ -38,7 +38,7 @@ int main()
     //  cout << "2 - Bubble Sort : \n";
 
     // sort.Bubble_sort(arr, size);
-    sort.QuickSort(arr,0,size);
+    sort.Quick_sort(arr,0,size);
     // cout<<"Insertion sort : \n";
     // sort.Insertion_sort(arr,size);
 

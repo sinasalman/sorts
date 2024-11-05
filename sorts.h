@@ -92,7 +92,7 @@ public:
         return i + 1;
     }
 
-    void QuickSort(int array[], int low, int high)
+    void Quick_sort(int array[], int low, int high)
     {
 
         if (low < high)
@@ -100,8 +100,8 @@ public:
 
             int pivot = partition(array, low, high);
 
-            QuickSort(array, low, pivot - 1);
-            QuickSort(array, pivot + 1, high);
+            Quick_sort(array, low, pivot - 1);
+            Quick_sort(array, pivot + 1, high);
         }
         print_array(array, high);
     }
