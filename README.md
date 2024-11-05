@@ -8,5 +8,6 @@ if u have a project in cpp and u want to sort some arrays , you can use the "sor
 <h3>
   1  - Selection Sort : Selection_Sort(int array[ ] , int size) <br>
   2  - Bubble sort : Bubble_sort(int array[ ] , int size) <br>
+  3  - insertion sort : Insertion_sort(int array[ ], int size)<br>
   and other algorithms will be added as soon as possible
 </h3>
